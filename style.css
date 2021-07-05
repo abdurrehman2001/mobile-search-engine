@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Monoton&family=Shrikhand&display=swap');
+
 img{
     width: 21%;
 }
@@ -11,15 +17,61 @@ img{
 }
 h1{
     text-align: center;
+    font-family: "Shrikhand";
+    font-size: 40px;
+    color: lightskyblue;
 }
 h2{
     text-align: center;
+    font-family: "Orbitron";
+    font-size: 30px;
+    color: lightskyblue;
 }
 h4{
     border: 3px  solid black;
     height: 30px;
-    width: 10%;
+    width: 11%;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 25px;
+    font-size: 18px;
+    font-family: "Kaushan Script";
+    background-image: linear-gradient(to right , lightblue , white);
+}
+input{
+    width: 30%;
+    padding: 30px;
+    border-radius: 25px;
+    font-size: 30px;
+    color: cornflowerblue;
+    font-family: "Akaya Kanadaka";
+    background-image: linear-gradient(to right , lightblue , white);
+
+}
+input::placeholder{
+    color: cornflowerblue;
+    font-family: "Akaya Kanadaka";
+    font-size: 30px;
+}
+p{
+    font-family: "Damion";
+    font-size: 32px;
+    color: SlateGray;
+}
+button{
+
+    background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%);
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+}
+button:hover{
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
 }

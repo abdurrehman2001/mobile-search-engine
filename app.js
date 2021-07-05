@@ -133,4 +133,7 @@ function search() {
     storage.innerHTML = "Stroage :" + " " + mobile[brand.value.toLowerCase()][model.value.toLowerCase()].storage
     image.src = mobile[brand.value.toLowerCase()][model.value.toLowerCase()].src
     image.style.border = "4px solid black"
+    image.style.borderRadius = "15px"
+    brand.value = ""
+    model.value = ""
 }
